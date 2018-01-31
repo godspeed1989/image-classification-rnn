@@ -1,0 +1,4 @@
+model_checkpoint_path: "/run/media/yl/63e9331a-f146-4a56-8d58-b0f7da000e48/image-classification-rnn-master/trained_model_1517441385/checkpoints/model.ckpt-1995"
+all_model_checkpoint_paths: "/run/media/yl/63e9331a-f146-4a56-8d58-b0f7da000e48/image-classification-rnn-master/trained_model_1517441385/checkpoints/model.ckpt-1985"
+all_model_checkpoint_paths: "/run/media/yl/63e9331a-f146-4a56-8d58-b0f7da000e48/image-classification-rnn-master/trained_model_1517441385/checkpoints/model.ckpt-1990"
+all_model_checkpoint_paths: "/run/media/yl/63e9331a-f146-4a56-8d58-b0f7da000e48/image-classification-rnn-master/trained_model_1517441385/checkpoints/model.ckpt-1995"

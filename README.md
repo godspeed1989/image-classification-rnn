@@ -21,7 +21,7 @@
 
  Provide the model directory (created when running ```train.py```) to ```predict.py```.
  - Command: python3 predict.py ./trained_model_directory/
- - Example: ```python3 predict.py ./trained_model_1481170507/```
+ - Example: ```python3 predict.py ./trained_model_xxxxxxxxxx/```
 
 ### Reference:
  - [Recurrent Neural Network](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/recurrent_network.py)
