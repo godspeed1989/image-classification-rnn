@@ -53,9 +53,8 @@ def train():
         epoch = 1
 
         print(colors.info('Step 2.0: create a directory for saving model files'))
-        timestamp = str(int(time.time()))
-        out_dir = os.path.abspath(os.path.join(os.path.curdir, "trained_model_" + timestamp))
-        checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
+        out_dir = "trained_model_" + str(int(time.time()))
+        checkpoint_dir = os.path.join(out_dir, "checkpoints")
         checkpoint_prefix = os.path.join(checkpoint_dir, "model.ckpt")
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
