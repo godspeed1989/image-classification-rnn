@@ -42,7 +42,7 @@ def predict():
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         print(colors.info('Step 2.0: load the trained model'))
-        checkpoint_file = tf.train.latest_checkpoint(checkpoint_dir + 'checkpoints')
+        checkpoint_file = tf.train.latest_checkpoint(os.path.join(checkpoint_dir, 'checkpoints'))
         print('Loaded the trained model: {}'.format(checkpoint_file))
 
         saver = tf.train.Saver()
